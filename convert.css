@@ -1,0 +1,35 @@
+.custom-header {
+          background: linear-gradient(to right, rgb(41, 13, 191), rgb(255, 0, 153)) rgb(255, 255, 255);
+          border-radius: 0px 22px; border: 0px;
+          box-sizing: border-box;
+          color: white;line-height: 1.4;
+          list-style: none;
+          margin: 0px 0px 0.2em;
+          outline: none;
+          padding: 5px 22px;
+          text-align: center!important;
+          text-transform: capitalize;
+        }
+          body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 20px;
+        }
+        h2, h3 {
+            color: #007bff;
+        }
+        p {
+            line-height: 1.6;
+        }
+        button {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
