@@ -1,0 +1,108 @@
+  .at_robottxt_container h1 {
+  	text-align: center;
+  	margin: 50px 0;
+  	font-size: 36px;
+  	color: #333;
+  }
+
+  .at_robottxt_container {
+  	background-color: #fff;
+  	border-radius: 5px;
+  	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  	padding: 20px;
+  	margin: 0 auto;text-align: center;
+  	max-width:100%;
+  }
+
+  .at_robottxt_container label {
+  	display: block;
+  	margin-bottom: 10px;
+  	font-size: 16px;
+  	color: #333;
+  }
+
+  .at_robottxt_container input[type="text"] {
+  	display: block;
+  	width: 100%;
+  	padding: 10px;max-width: 80%;
+      margin: auto;
+  	margin-bottom: 20px;
+  	font-size: 16px;
+  	border: none;
+  	border-radius: 5px;
+  	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  	background-color: #f1f1f1;
+  	color: #333;
+  }
+
+  .at_robottxt_container select {
+  	display: block;
+  	width: 100%;max-width: 80%;
+      margin: auto;
+  	padding: 10px;
+  	margin-bottom: 20px;
+  	font-size: 16px;
+  	border: none;
+  	border-radius: 5px;
+  	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  	background-color: #f1f1f1;
+  	color: #333;
+  }
+
+  .at_robottxt_container button {
+  	display: block;
+  	margin: 0 auto;
+  	padding: 10px 20px;
+  	font-size: 16px;
+  	border: none;
+  	border-radius: 5px;
+  	background-color: #428bca;
+  	color: #fff;
+  	cursor: pointer;
+  }
+
+  .at_robottxt_container textarea {
+  	display: none;
+  	width: 100%;
+  	padding: 10px;
+  	margin-bottom: 20px;
+  	font-size: 16px;
+  	border: none;text-align: left;
+  	border-radius: 5px;
+  	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  	background-color: #f1f1f1;
+  	color: #333;
+  	resize: none;
+  }
+  p#output-text {
+      text-align: left;
+      background: beige;
+      padding: 20px;
+  }
+  .at_robottxt_container button#copy-btn {
+  	display: none;
+  	margin: 0 auto;
+  	padding: 10px 20px;
+  	font-size: 16px;
+  	border: none;
+  	border-radius: 5px;
+  	background-color: #5cb85c;
+  	color: #fff;
+  	cursor: pointer;
+  }
+
+  .at_robottxt_container button#copy-btn:hover {
+  	background-color: #449d44;
+  }
+
+  .at_robottxt_container button:focus,
+  .at_robottxt_container button:hover,
+  .at_robottxt_container button:active {
+  	background-color: #3071a9;
+  }
+
+  @media screen and (max-width: 500px) {
+  	.at_robottxt_container {
+  		margin: 0 10px;
+  	}
+  }
