@@ -1,0 +1,33 @@
+.blog-content {
+    text-align: left; /* Align the content to the left by default */
+  }
+
+  .blog-content .container {
+    text-align: center;
+  }
+
+  .buttons button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #3498db; /* Blue color */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .buttons button:hover {
+    background-color: #a52a2a; /* Brownish red color on hover */
+  }
+
+  #input,
+  #output {
+    width: 100%; /* Adjust the width as needed for your blog */
+    height: 200px; /* Set the height to twice the default */
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px 0;
+  }
+
